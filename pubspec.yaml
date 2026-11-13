@@ -1,0 +1,34 @@
+name:  flutter_application_7
+description: تطبيق بنك الدم باستخدام Flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # قاعدة البيانات المحلية
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # لإدارة الحالة (اختياري لكن موصى به)
+  provider: ^6.1.1
+  
+  # للتاريخ والوقت
+  intl: ^0.18.1
+  
+  # للبحث والترتيب
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
